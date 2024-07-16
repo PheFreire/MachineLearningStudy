@@ -48,9 +48,9 @@ Usamos este algoritimo para atualizar o valor de w repetidamente até chegar ao 
 
 O gradiente estocástico, ao contrário do gradiente descendente que busca a correção do desvio dos dados de entrada e saída analisando a média do desvio padrão e chegando ao mínimo local da função de erro médio quadrático, procura corrigir o desvio usando os dados de entrada e saída individualmente. Ou seja, para cada atualização do peso, o algoritmo ajusta o desvio de apenas uma entrada e saída por vez. Dessa forma, em vez de encontrar o mínimo local, o valor encontrado é potencialmente mais preciso, podendo ser o mínimo global. No entanto, isso funciona melhor para conjuntos de dados com muitos exemplos.
 
- Na pratica:
- - O gradiente estocratico é muito mais ultilizado
- - A taxa de apredizada costuma começar com valores grandes e ir diminuindo durante a iteração de atualização do peso 
+Na pratica:
+    - O gradiente estocratico é muito mais ultilizado
+    - A taxa de apredizada costuma começar com valores grandes e ir diminuindo durante a iteração de atualização do peso 
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
